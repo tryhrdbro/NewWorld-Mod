@@ -1,0 +1,26 @@
+{
+    "type": "Mech",
+    "name": "habrald",
+    "description": "An miner ship no offensive capapilities.",
+    "drillPower": 5,
+    "mineSpeed": 10,
+    "itemCapacity": 300,
+    "mass": 1.75,
+    "speed": 0.62,
+    "drag": 0.35,
+    "boostSpeed": 0.9,
+    "weaponOffsetY": 0,
+    "health": 80,
+    "buildPower": 2,
+    "engineColor": "bec150",
+    "weapon": {
+      "name": "oilThrower"
+      "reload": 3,
+      "width": 3,
+      "length": 1,
+      "roundrobin": true,
+      "shots": 1,
+      "inaccuracy": 0.5,
+      "bullet": "oilShot"
+    }
+}

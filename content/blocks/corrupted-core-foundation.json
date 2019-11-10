@@ -1,0 +1,11 @@
+{
+  "type": "CoreBlock",
+  "name": "Corrupted Core Foundation",
+  "description": "A corrupted core foundation would you even imagine how!!",
+  "health": 2400,
+  "alwaysUnlocked": true,
+  "itemCapacity": 10000,
+  "size": 4,
+  "BuildVisibility": "debugOnly",
+  "category": "effect",
+}

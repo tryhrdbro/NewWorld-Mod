@@ -1,0 +1,22 @@
+{
+	"type": "flyingUnit",
+	"name": "Crath",
+	"description": "A corrupted wraith. Starts to get a bit buggy at a later time!",
+	"speed": 0.5,
+  "maxVelocity": 1.9,
+  "drag": 0.01,
+  "mass": 1.6,
+	"flying": true,
+	"health": 90,
+	"engineOffset": 5.5,
+	"range": 150,
+	"weapon": {
+		"name": "blaster-corrupted",
+		"length": 1.5,
+		"width": -0.5,
+		"reload": 28,
+    "ejectEffect": "shellEjectSmall",
+    "shootSound": "shoot",
+		"bullet": "lightning"
+	}
+}

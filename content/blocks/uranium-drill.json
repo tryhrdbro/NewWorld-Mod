@@ -1,0 +1,29 @@
+{
+  "name": "Uranium Drill",
+  "type": "Drill",
+  "description": "A very strong drill. Needs liquid and power both!",
+  "tier": 6,
+  "dillTime": 100,
+  "drawRim": true,
+  "size": 4,
+  "hasPower": true,
+  "updateEffect": "pulverizeSmall",
+  "rotateSpeed": 10,
+  "warmupSpeed": 0.005,
+  "consumes": {
+    "power": 0.9,
+    "liquid": {
+			"liquid": "cryofluid",
+			"amount": 1,
+			"booster": true
+		}
+  },
+  "requirements": [
+		{ "item": "uranium", "amount": 2600 },
+		{ "item": "silicon", "amount": 1400 },
+		{ "item": "lead", "amount": 3208 }
+	],
+
+    "category": "production",
+    "research": "uranium-small-drill"
+}

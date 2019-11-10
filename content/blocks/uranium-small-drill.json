@@ -1,0 +1,25 @@
+{
+  "name": "Uranium Small Drill",
+  "type": "Drill",
+  "description": "A very strong small drill. Like the bigger version of it.",
+  "tier": 5,
+  "dillTime": 280,
+  "size": 1,
+  "hasPower": false,
+  "updateEffect": "pulverizeSmall",
+  "consumes": {
+    "liquid": {
+			"liquid": "water",
+			"amount": 0.25,
+			"booster": true
+		}
+  },
+  "requirements": [
+		{ "item": "uranium", "amount": 10 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "lead", "amount": 68 }
+	],
+
+    "category": "production",
+    "research": "laser-drill"
+}

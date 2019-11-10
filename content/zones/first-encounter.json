@@ -1,0 +1,28 @@
+{
+	"name": "First Encounter",
+	"description": "The first encounter with the corrupted units. Its hard to even emagine how the spores evolved so much and corrupted the mechs.",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+      {"item": "graphite", "amount": 100}
+    ],
+    "conditionWave": 20,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "fungalPass",
+    		"wave": 10
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "silicon-smelter"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "power-node"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal",  "thorium", "titanium", "sand"]
+}

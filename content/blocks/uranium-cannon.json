@@ -1,0 +1,54 @@
+{
+      "type": "ArtilleryTurret",
+      "name": "Uranium Cannon",
+      "description": "Shoots longe range bullets. That destroy every being on the impact radius!",
+      "health": 2000,
+      "size": 4,
+      "reload": 600,
+      "range": 1200,
+      "rotatespeed": 0.5,
+      "shots": 1,
+      "recoil": 6,
+      "ammoUseEffect": "shootBigSmoke",
+      "inaccuracy": 1,
+      "targetAir": true,
+      "ammo": {
+        "graphite": {
+              "speed": 12,
+              "bulletType": "flakGlass",
+              "fragBullet": "glassFrag",
+              "fragBullets": 20,
+              "splashDamage": 1000,
+              "splashDamageRadius": 200,
+              "bulletWidth": 30,
+              "bulletHeight": 40,
+              "hitEffect":"impactShockwave",
+              "shootEffect": "blastExplosion",
+              "smokeEffect": "blastsmoke",
+              "ammoMultiplier": 10
+        },
+
+          "uranium": {
+              "speed": 12,
+              "fragBullet": "glassFrag",
+              "fragBullets": 20,
+              "splashDamage": 4000,
+              "splashDamageRadius": 400,
+              "bulletWidth": 30,
+              "bulletHeight": 40,
+              "hitEffect":"impactShockwave",
+              "shootEffect": "blastExplosion",
+              "smokeEffect": "blastsmoke",
+              "ammoMultiplier": 20
+          }
+      },
+      "requirements": [
+        { "item": "uranium", "amount": 3200},
+        { "item": "copper", "amount": 5200},
+        { "item": "silicon", "amount": 1030},
+        { "item": "titanium", "amount": 2520},
+        { "item": "thorium", "amount": 3132}
+      ],
+      "category": "turret",
+      "research": "hightower"
+}

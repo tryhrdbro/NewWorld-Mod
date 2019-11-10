@@ -1,0 +1,24 @@
+{
+	"type": "groundUnit",
+	"name": "Spore Spider",
+	"description": "A pain in the ass. A bundle of spores mashed together.",
+  "maxVelocity": 0.6,
+	"speed": 0.26,
+  "drag": 0.4,
+  "hitsize": 8,
+  "mass": 8,
+  "size": 3,
+  "rotatespeed": 0.5,
+  "rotateWeapon": true,
+	"flying": false,
+	"health": 180,
+	"weapon": {
+		  "name": "spitter",
+      "reload": 32,
+      "range": 160,
+      "width": 2,
+      "roundrobin": true,
+      "height": -2,
+  		"bullet": "standardCopper",
+	}
+}

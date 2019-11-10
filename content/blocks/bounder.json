@@ -1,0 +1,25 @@
+{
+      "type": "BurstTurret",
+      "name": "Bounder",
+      "description": "A downgraded version of swarmer. Shoots bullets at a pace and swarmed. Good for holding the line.",
+      "health": 320,
+      "size": 1,
+      "reload": 26,
+      "range": 144,
+      "ammoUseEffect": "shellEjectSmall",
+      "inaccuracy": 3,
+      "rotatespeed": 10,
+      "ammo": {
+          "graphite": "missileRevenant",
+          "pyratite": "missileIncendiary",
+          "blast-compound": "missileExplosive",
+          "silicon": "missileSwarm"
+      },
+      "requirements": [
+        { "item": "silicon", "amount": 83},
+        { "item": "copper", "amount": 432},
+        { "item": "graphite", "amount": 100}
+      ],
+      "category": "turret",
+      "research": "hail"
+}

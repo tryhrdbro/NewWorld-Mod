@@ -1,0 +1,18 @@
+{
+	"type": "groundUnit",
+	"name": "Bagger",
+	"description": "A pain in the ass when in groups. A corrupted dagger.",
+  "maxVelocity": 1.3,
+	"speed": 0.26,
+  "drag": 0.4,
+  "hitsize": 8,
+  "mass": 1.75,
+	"flying": false,
+	"health": 170,
+	"range": 100,
+	"weapon": {
+		"name": "blaster-corrupted",
+    "reload": 32,
+		"bullet": "standardCopper",
+	}
+}

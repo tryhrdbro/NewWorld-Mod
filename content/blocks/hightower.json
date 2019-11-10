@@ -1,0 +1,44 @@
+{
+      "type": "BurstTurret",
+      "name": "HighTower",
+      "description": "Shoots longe range bullets.",
+      "health": 200,
+      "size": 1,
+      "burstSpacing": 12,
+      "reload": 200,
+      "range": 400,
+      "shots": 2,
+      "recoil": 6,
+      "ammoUseEffect": "shellEjectSmall",
+      "inaccuracy": 1,
+      "targetAir": false,
+      "rotatespeed": 10,
+      "ammo": {
+        "copper": {
+              "speed": 10,
+              "damage": 80,
+              "bulletWidth": 9,
+              "bulletHeight": 8,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 2
+        },
+
+          "uranium": {
+              "speed": 16,
+              "damage": 300,
+              "bulletWidth": 4,
+              "bulletHeight": 9,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 10
+          }
+      },
+      "requirements": [
+        { "item": "uranium", "amount": 100},
+        { "item": "copper", "amount": 300},
+        { "item": "silicon", "amount": 230}
+      ],
+      "category": "turret",
+      "research": "hail"
+}

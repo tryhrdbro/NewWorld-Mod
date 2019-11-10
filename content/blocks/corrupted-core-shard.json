@@ -1,0 +1,11 @@
+{
+  "type": "CoreBlock",
+  "name": "Corrupted Core Shard",
+  "description": "A corrupted core shard would you even imagine how!!",
+  "health": 1400,
+  "alwaysUnlocked": true,
+  "itemCapacity": 6000,
+  "size": 3,
+  "BuildVisibility": "debugOnly",
+  "category": "effect",
+}

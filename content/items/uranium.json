@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "Uranium",
+  "description": "A higly rare radioactive metall.",
+  "hardness": 5,
+  "cost": 2.0,
+  "color": "00c100"
+}

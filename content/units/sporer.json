@@ -1,0 +1,28 @@
+{
+	"type": "groundUnit",
+	"name": "Sporer",
+	"description": "A stronger version of crawler. A corrupted crawler to be precise.",
+  "maxVelocity": 1.27,
+	"speed": 0.36,
+  "drag": 0.4,
+	"hitsize": 8,
+  "mass": 1.75,
+	"flying": false,
+	"health": 160,
+	"range": 160,
+	"weapon": {
+		"name": "chrome-blaster",
+		"length": 0,
+    "reload": 3.6,
+    "shootSound": "explosion",
+		"bullet": {
+			"hi": {
+				"lifetime": 30,
+				"killOwner": true,
+				"speed": 1.6,
+				"splashDamageRadius": 55,
+				"splashDamage": 30,
+			}
+		}
+	}
+}

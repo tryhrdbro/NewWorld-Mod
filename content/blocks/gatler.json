@@ -1,0 +1,39 @@
+{
+      "type": "DoubleTurret",
+      "name": "Gatler",
+      "description": "Shoots bullets like crazy.",
+      "health": 500,
+      "size": 2,
+      "reload": 1,
+      "range": 100,
+      "ammoUseEffect": "shellEjectSmall",
+      "inaccuracy": 2,
+      "rotatespeed": 10,
+      "ammo": {
+          "copper": {
+            "speed": 6,
+            "damage": 8,
+            "bulletWidth": 5,
+            "bulletHeight": 4,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "ammoMultiplier": 4
+          },
+          "uranium": {
+              "speed": 10,
+              "damage": 20,
+              "bulletWidth": 9,
+              "bulletHeight": 8,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 10
+          }
+      },
+      "requirements": [
+        { "item": "uranium", "amount": 200},
+        { "item": "copper", "amount": 240},
+        { "item": "graphite", "amount": 600}
+      ],
+      "category": "turret",
+      "research": "repeater"
+}

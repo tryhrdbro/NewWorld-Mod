@@ -1,0 +1,40 @@
+{
+      "type": "DoubleTurret",
+      "name": "Gattliner",
+      "description": "Shoots bullets like crazy.",
+      "health": 500,
+      "size": 1,
+      "reload": 3,
+      "width": 2,
+      "range": 100,
+      "ammoUseEffect": "shellEjectSmall",
+      "inaccuracy": 10,
+      "rotatespeed": 10,
+      "ammo": {
+          "copper": {
+            "speed": 6,
+            "damage": 8,
+            "bulletWidth": 5,
+            "bulletHeight": 4,
+            "shootEffect": "shootSmall",
+            "smokeEffect": "shootSmallSmoke",
+            "ammoMultiplier": 4
+          },
+          "uranium": {
+              "speed": 10,
+              "damage": 20,
+              "bulletWidth": 9,
+              "bulletHeight": 8,
+              "shootEffect": "shootSmall",
+              "smokeEffect": "shootSmallSmoke",
+              "ammoMultiplier": 10
+          }
+      },
+      "requirements": [
+        { "item": "uranium", "amount": 20},
+        { "item": "copper", "amount": 200},
+        { "item": "graphite", "amount": 60}
+      ],
+      "category": "turret",
+      "research": "repeater"
+}

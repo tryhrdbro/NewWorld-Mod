@@ -1,0 +1,41 @@
+{
+    "type": "Mech",
+    "name": "Popper",
+    "description": "A sniper mech with little building and mining power!",
+    "drillPower": 1,
+    "mineSpeed": 0.2,
+    "itemCapacity": 10,
+    "mass": 3,
+    "speed": 0.3,
+    "drag": 0.35,
+    "boostSpeed": 0.8,
+    "weaponOffsetX": 10,
+    "weaponOffsetY": 6.4,
+    "health": 200,
+    "buildPower": 0.2,
+    "engineColor": "bec150",
+    "weapon": {
+      "name": "powder"
+      "reload": 460,
+      "width": 8,
+      "length": 4,
+      "roundrobin": true,
+      "shots": 1,
+      "inaccuracy": 1,
+      "bullet": {
+        "type": "ArtilleryBulletType",
+        "speed": 6,
+        "damage": 1000,
+        "bulletWidth": 10,
+        "bulletHeight": 20,
+        "lifetime": 70,
+        "inaccuracy": 2,
+        "frontColor": "58ff00",
+        "backColor": "58ff00",
+        "trailColor": "5e9e3c",
+        "splashDamage": 1000,
+        "splashDamageRadius": 140,
+        "bulletShrink": 0,
+      }
+    }
+}

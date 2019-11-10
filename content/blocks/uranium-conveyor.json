@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Uranium conveyor",
+	"description": "Improved version of titanium conveyor.",
+	"requirements": [
+		{"item": "titanium", "amount": 3},
+		{"item": "copper", "amount": 3},
+		{"item": "lead", "amount": 3},
+		{"item": "uranium", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 0.16,
+	"research": "armored-conveyor"
+}

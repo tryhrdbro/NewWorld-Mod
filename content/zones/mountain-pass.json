@@ -1,0 +1,28 @@
+{
+	"name": "Mountain Pass",
+	"description": "Mountains hold this area lock the spores have begin taking even this place alive!!",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 2600},
+    	{"item": "plastanium", "amount": 500},
+      {"item": "thorium", "amount": 1000}
+    ],
+    "conditionWave": 15,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "first-encounter",
+    		"wave": 20
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "oil-extractor"
+    	}
+    	{
+    		"type": "Unlock",
+    		"block": "thorium-reactor"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal",  "thorium", "titanium", "sand"]
+}

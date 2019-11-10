@@ -1,0 +1,26 @@
+{
+	"type": "flyingUnit",
+	"name": "Lopper",
+	"description": "A corrupted ghoul. Drops mini artillery bombs!",
+	"speed": 0.2,
+  "maxVelocity": 1.4,
+  "drag": 0.01,
+  "mass": 3,
+	"flying": true,
+  "targetAir": false,
+	"health": 240,
+	"engineOffset": 7.8,
+	"range": 140,
+	"weapon": {
+		"name": "bomber",
+		"length": 0,
+		"width": 2,
+		"reload": 12,
+    "roundrobin": true,
+    "velocityRnd": 1,
+    "inaccuracy": 40,
+    "ignoreRotation": true,
+    "ejectEffect": "none",
+		"bullet": "bombExplosive"
+	}
+}

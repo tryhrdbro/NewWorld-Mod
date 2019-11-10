@@ -1,0 +1,23 @@
+{
+	"type": "groundUnit",
+	"name": "Fallen",
+	"description": "A strong flamethrowing enemy. A corrupted titan.",
+  "maxVelocity": 1,
+	"speed": 0.22,
+  "drag": 0.4,
+  "hitsize": 9,
+  "mass": 3.8,
+	"flying": false,
+	"health": 230,
+	"range": 10,
+	"weapon": {
+		"name": "flamethrower-corrupted",
+    "shootSound": "flame",
+    "width": 3.4,
+    "range": 30,
+    "recoil": 1,
+    "roundrobin": true,
+    "reload": 14,
+		"bullet": "basicFlame",
+	}
+}

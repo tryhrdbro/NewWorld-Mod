@@ -1,0 +1,8 @@
+{
+  "type": "material",
+  "name": "Void Shard",
+  "description": "A material made out of the void. This was very hard to get. Use it visely!!",
+  "hardness": 6,
+  "cost": 5.0,
+  "color": "126cab"
+}

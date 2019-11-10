@@ -1,0 +1,30 @@
+{
+  "name": "Dragon",
+  "type": "Mech-Dart",
+  "description": "A dragon Flying mech. Its weapon is dragonBreath. Takes units out easily!!",
+  "flying": true,
+  "drillPower": 1,
+  "mineSpeed": 1,
+  "maxSpeed": 10,
+  "speed": 0.3,
+  "drag": 0.09,
+  "shootSoundEffect": "fire",
+  "itemCapacity": 300,
+  "health": 3000,
+  "weaponOffsetX": 0,
+  "weaponOffsetY": -8,
+  "cellTrnsY": 1,
+  "engineColor": "00c100",
+  "buildPower": 1,
+  "weapon": {
+    "name": "uhoh"
+    "reload": 1,
+    "width": 0,
+    "length": 8,
+    "recoil": 1,
+    "roundrobin": false,
+    "shots": 1,
+    "inaccuracy": 2,
+    "bullet": "pyraFlame"
+  }
+}

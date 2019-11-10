@@ -1,0 +1,30 @@
+{
+      "type": "ChargeTurret",
+      "name": "Big Daddy",
+      "description": "Shoots bullets.",
+      "health": 2000,
+      "size": 2,
+      "shootType": "lancerLaser",
+      "chargeTime": 200,
+      "chargeMaxDelay": 20,
+      "chargeEffects": 7,
+      "recoil": 6,
+      "cooldown": 0.03,
+      "powerUse": 5.5,
+      "shootEffect": "lancerLaserShoot",
+      "smokeEffect": "lancerLaserShootSmoke",
+      "reload": 80,
+      "range": 300,
+      "ammoUseEffect": "shellEjectSmall",
+      "inaccuracy": 0,
+      "rotatespeed": 10,
+      "heatColor": "00c100",
+      "targetAir": false,
+      "requirements": [
+        { "item": "uranium", "amount": 1000},
+        { "item": "copper", "amount": 200},
+        { "item": "graphite", "amount": 60}
+      ],
+      "category": "turret",
+      "research": "lancer"
+}

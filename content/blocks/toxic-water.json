@@ -1,0 +1,12 @@
+{
+  "type": "floor",
+  "name": "Uranium Water",
+  "speedMultiplier": 0.1,
+  "variants": 0,
+  "liquidDrop": "water",
+  "isLiquid": true,
+  "status": "burning",
+  "statusDuration": 140,
+  "drownTime": 200,
+  "cacheLayer": "water",
+}
