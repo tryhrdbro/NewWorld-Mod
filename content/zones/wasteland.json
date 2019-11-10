@@ -1,0 +1,27 @@
+{
+	"name": "Wasteland",
+	"description": "A very toxic area. !!To to its toxinity a few blocks cant be placed here!!",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 2000},
+    	{"item": "lead", "amount": 2000},
+      {"item": "graphite", "amount": 1600},
+      {"item": "silicon", "amount": 1000},
+      {"item": "uranium", "amount": 100}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 8,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "mountain-pass",
+    		"wave": 10
+    	},
+			{
+    		"type": "ZoneWave",
+    		"zone": "nuclearComplex",
+    		"wave": 10
+    	}
+    ],
+    "resources": ["copper", "lead", "coal",  "thorium", "titanium", "sand", "uranium"]
+}

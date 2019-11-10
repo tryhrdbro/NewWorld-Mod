@@ -1,0 +1,20 @@
+{
+	"name": "Stranded",
+	"description": "We some how crashed here. Pretty stranded recource cost tripled!!",
+	"loadout": "basicFoundation",
+    "startingItems": [
+    	{"item": "copper", "amount": 1000},
+    	{"item": "lead", "amount": 1000},
+      {"item": "silicon", "amount": 100}
+    ],
+    "conditionWave": 10,
+    "launchPeriod": 10,
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "stainedMountains",
+    		"wave": 15
+    	}
+    ],
+    "resources": ["copper", "lead", "coal",  "thorium", "titanium", "sand"]
+}
