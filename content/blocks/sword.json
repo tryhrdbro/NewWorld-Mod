@@ -1,0 +1,59 @@
+{
+    "type": "BurstTurret",
+    "name": "Sword",
+    "desctiption": "a fast firing low damage sword blaster.",
+    "size": 1,
+    "health": 400,
+    "shots": 2,
+    "burstSpacing": 5,
+    "reload": 20,
+    "range": 200,
+    "shootCone": 45,
+    "ammoUseEffect": "shellEjectSmall",
+    "inaccuracy": 200,
+    "shootSound": "pew",
+    "rotatespeed": 8,
+    "ammo": {
+      "titanium": {
+        "speed": 6.0,
+  			"drag": 0.01,
+  			"damage": 3,
+  			"splashDamage": 3,
+  			"splashDamageRadius": 24,
+  			"bulletWidth": 5,
+  			"bulletHeight": 8,
+  			"homingPower":1000,
+  			"homingRange":240,
+  			"hitEffect":"generatespark",
+  			"ammoMultiplier": 5,
+  			"collidesTiles": true,
+  			"backColor": "00b96c",
+  			"frontColor": "007846",
+  			"fragBullet": {
+  				"speed": 3.0,
+  				"damage": 1,
+  				"splashDamage": 1,
+  				"splashDamageRadius": 12,
+  				"bulletWidth": 4,
+  				"bulletHeight": 4,
+  				"homingPower":20,
+  				"homingRange":75,
+  				"lifetime": 10,
+  				"hitShake": 0,
+  				"ammoMultiplier": 1,
+  				"collidesTiles": true,
+  				"backColor": "007846",
+  				"frontColor": "00b96c",
+  				"hitEffect":"generatespark",
+        }
+      }
+    },
+      "requirements": [
+        { "item": "lead", "amount": 280 }
+        { "item": "titanium", "amount": 160 },
+        { "item": "void-shard", "amount": 80 },
+        { "item": "metaglass", "amount": 60 }
+      ],
+      "category": "turret",
+      "research": "swarmer"
+}

@@ -8,7 +8,6 @@
   "maxSpeed": 10,
   "speed": 0.3,
   "drag": 0.09,
-  "shootSoundEffect": "fire",
   "itemCapacity": 300,
   "health": 3000,
   "weaponOffsetX": 0,
@@ -18,7 +17,8 @@
   "buildPower": 1,
   "weapon": {
     "name": "uhoh"
-    "reload": 1,
+    "reload": 1.6,
+    "shootSound": "flame",
     "width": 0,
     "length": 8,
     "recoil": 1,
