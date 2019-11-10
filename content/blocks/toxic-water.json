@@ -3,7 +3,7 @@
   "name": "Uranium Water",
   "speedMultiplier": 0.1,
   "variants": 0,
-  "liquidDrop": "water",
+  "liquidDrop": "uranium-water",
   "isLiquid": true,
   "status": "burning",
   "statusDuration": 140,

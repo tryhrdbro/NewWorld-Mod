@@ -1,0 +1,8 @@
+{
+	"name": "Uraniun Water",
+	"description": "Highly toxic. SideWeare of nuclear energy.",
+	"temperature": 3,
+    "viscosity": 4,
+    "effect": "burning",
+    "color": "529512"
+}
