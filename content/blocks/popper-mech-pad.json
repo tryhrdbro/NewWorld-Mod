@@ -14,5 +14,5 @@
       { "item": "uranium", "amount": 400 },
   	],
     "category": "upgrade",
-    "research": "habrald-mech-pad"
+    "research": "omega-mech-pad"
 }

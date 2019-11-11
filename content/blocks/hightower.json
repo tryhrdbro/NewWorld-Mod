@@ -40,5 +40,5 @@
         { "item": "silicon", "amount": 230}
       ],
       "category": "turret",
-      "research": "hail"
+      "research": "bounder"
 }

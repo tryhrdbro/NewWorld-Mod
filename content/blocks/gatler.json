@@ -6,6 +6,7 @@
       "size": 2,
       "reload": 1,
       "range": 100,
+      "xRand": 6,
       "ammoUseEffect": "shellEjectSmall",
       "inaccuracy": 2,
       "rotatespeed": 10,
@@ -35,5 +36,5 @@
         { "item": "graphite", "amount": 600}
       ],
       "category": "turret",
-      "research": "repeater"
+      "research": "gattliner"
 }

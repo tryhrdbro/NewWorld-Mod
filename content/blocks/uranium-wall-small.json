@@ -8,5 +8,5 @@
         { "item": "uranium", "amount": 100}
     ],
     "category": "defense",
-    "research": "thorium-wall"
+    "research": "phase-wall"
 }

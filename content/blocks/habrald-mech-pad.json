@@ -13,5 +13,5 @@
   		{ "item": "silicon", "amount": 150 }
   	],
     "category": "upgrade",
-    "research": "core-shard"
+    "research": "tau-mech-pad"
 }
