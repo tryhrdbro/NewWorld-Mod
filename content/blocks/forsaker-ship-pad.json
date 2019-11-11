@@ -1,0 +1,19 @@
+{
+    "name": "Forsaker Mech Pad"
+    "description": "Turns you into an stander.",
+    "type": "MechPad",
+    "mech": "forsaker",
+    "size": 2,
+    "consumes": {
+      "power": 1.1,
+    },
+    "requirements": [
+  		{ "item": "lead", "amount": 2000 },
+  		{ "item": "thorium", "amount": 320 },
+  		{ "item": "silicon", "amount": 1400 },
+      { "item": "plastanium", "amount": 310 },
+  		{ "item": "phase-fabric", "amount": 649 }
+  	],
+    "category": "upgrade",
+    "research": "javelin-ship-pad"
+}
