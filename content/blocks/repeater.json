@@ -5,9 +5,9 @@
       "health": 420,
       "size": 1,
       "reload": 4.8,
-      "range": 80,
+      "range": 74,
       "ammoUseEffect": "shellEjectSmall",
-      "inaccuracy": 4,
+      "inaccuracy": 16,
       "itemCapacity": 60,
       "rotatespeed": 4,
       "ammo": {
