@@ -3,13 +3,13 @@
 	"description": "Our next location is this place it seems a little barren. [red]!!Warning in this area you have no ore spots only the ores at your core!!",
 	"loadout": "basicFoundation",
     "startingItems": [
-    	{"item": "copper", "amount": 8000},
-    	{"item": "lead", "amount": 8000},
+    	{"item": "copper", "amount": 6000},
+    	{"item": "lead", "amount": 6000},
       {"item": "silicon", "amount": 1000},
-      {"item": "graphite", "amount": 6000},
-      {"item": "thorium", "amount": 4000},
+      {"item": "graphite", "amount": 4000},
+      {"item": "thorium", "amount": 2000},
       {"item": "plastanium", "amount": 1000},
-      {"item": "metaglass", "amount": 8000}
+      {"item": "metaglass", "amount": 6000}
     ],
     "conditionWave": 20,
     "launchPeriod": 15,
