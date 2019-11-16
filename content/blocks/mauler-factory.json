@@ -4,7 +4,7 @@
   "unitType": "mauler",
   "produceTime": 3200,
   "size": 2,
-  "maxSpawn": 4,
+  "maxSpawn": 2,
   "consumes": {
     "power": 2.5,
     "items": {

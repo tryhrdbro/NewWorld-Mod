@@ -9,7 +9,7 @@
   "itemCapacity": 100,
 	"flying": true,
 	"weaponOffsetY": -2,
-	"health": 600,
+	"health": 240,
   "buildPower": 0.4,
 	"engineOffset": 5.5,
 	"range": 100,
