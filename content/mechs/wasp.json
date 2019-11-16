@@ -6,14 +6,16 @@
   "drillPower": 1,
   "mineSpeed": 1,
   "maxSpeed": 10,
-  "speed": 0.3,
+  "speed": 0.4,
   "drag": 0.09,
   "itemCapacity": 300,
   "health": 3000,
   "weaponOffsetX": 0,
   "weaponOffsetY": -8,
+  "engineOffsetY": 9.6,
+  "engineSize": 4.6,
   "cellTrnsY": 1,
-  "engineColor": "00c100",
+  "engineColor": "ff0000",
   "buildPower": 1,
   "weapon": {
     "name": "uhoh"

@@ -1,0 +1,25 @@
+{
+	"type": "flyingUnit",
+	"name": "Mauler",
+	"description": "A robot that heals and attacks faslty!",
+	"speed": 0.3,
+  "drag": 0.01,
+  "mass": 3,
+  "maxVelocity": 2,
+  "itemCapacity": 100,
+	"flying": true,
+	"weaponOffsetY": -2,
+	"health": 600,
+  "buildPower": 0.4,
+	"engineOffset": 5.5,
+	"range": 100,
+	"weapon": {
+		"name": "vapor-blaster",
+		"length": 2,
+    "width": 3.5,
+		"reload": 12,
+    "recoil": 2,
+		"roundrobin": true,
+		"bullet": "healBullet"
+	}
+}

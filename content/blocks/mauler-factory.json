@@ -1,0 +1,26 @@
+{
+  "name": "Mauler Factory",
+  "type": "UnitFactory",
+  "unitType": "mauler",
+  "produceTime": 3200,
+  "size": 2,
+  "maxSpawn": 4,
+  "consumes": {
+    "power": 2.5,
+    "items": {
+      "items": [
+        {"item": "silicon", "amount": 60},
+        {"item": "titanium", "amount": 30},
+        {"item": "uranium", "amount": 30}
+      ]
+    }
+  },
+  "category": "units",
+  "research": "phantom-factory",
+  "requirements": [
+    { "item": "uranium", "amount": 80 },
+    { "item": "plastanium", "amount": 64 },
+    { "item": "silicon", "amount": 120 },
+    { "item": "titanium", "amount": 320 }
+  ]
+}

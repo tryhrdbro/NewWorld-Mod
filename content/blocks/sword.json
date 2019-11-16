@@ -7,7 +7,7 @@
     "health": 400,
     "shots": 8,
     "burstSpacing": 4,
-    "reload": 86,
+    "reload": 100,
     "range": 160,
     "ammoUseEffect": "shellEjectSmall",
     "inaccuracy": 64,

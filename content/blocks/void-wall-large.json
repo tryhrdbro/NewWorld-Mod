@@ -1,0 +1,12 @@
+{
+    "name": "Void Wall"
+    "description": "A wall made out of void shards hard to destroy!"
+    "type": "DeflectorWall",
+    "health": 8600,
+    "size": 2
+    "requirements": [
+        { "item": "void-shard", "amount": 240}
+    ],
+    "category": "defense",
+    "research": "void-wall"
+}
