@@ -1,4 +1,7 @@
 {
 	"type": "OreBlock",
 	"itemDrop": "uranium",
+	"oreDefault": true,
+	"oreThreshold": 2,
+	"oreScale": 5,
 }
