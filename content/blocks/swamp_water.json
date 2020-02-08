@@ -1,0 +1,12 @@
+{
+  "type": "floor",
+  "name": "Swamp Water",
+  "speedMultiplier": 0.5,
+  "variants": 0,
+  "liquidDrop": "water",
+  "isLiquid": true,
+  "status": "wet",
+  "statusDuration": 90,
+  "drownTime": 200,
+  "cacheLayer": "tar",
+}
