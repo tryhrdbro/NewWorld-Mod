@@ -4,7 +4,7 @@
   "description": "A very stroong drull",
   "tier": 4,
 
-  "dillTime": 250,
+  "dillTime": 500,
   "size": 2,
   "hasPower": true,
   "updateEffect": "pulverizeMedium",
@@ -18,9 +18,9 @@
 		}
   },
   "requirements": [
-		{ "item": "lead", "amount": 80 },
-		{ "item": "silicon", "amount": 40 },
-		{ "item": "graphite", "amount": 20 }
+		{ "item": "lead", "amount": 800 },
+		{ "item": "silicon", "amount": 400 },
+		{ "item": "graphite", "amount": 200 }
 	],
 
     "category": "production",
