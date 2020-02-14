@@ -43,11 +43,11 @@
           }
       },
       "requirements": [
-        { "item": "uranium", "amount": 3200},
-        { "item": "copper", "amount": 5200},
-        { "item": "silicon", "amount": 1030},
-        { "item": "titanium", "amount": 2520},
-        { "item": "thorium", "amount": 3132}
+        { "item": "uranium", "amount": 2400},
+        { "item": "copper", "amount": 4300},
+        { "item": "silicon", "amount": 620},
+        { "item": "titanium", "amount": 1952},
+        { "item": "thorium", "amount": 2452}
       ],
       "category": "turret",
       "research": "hightower"

@@ -1,0 +1,14 @@
+{
+  "type": "SolarGenerator",
+  "health": 100,
+  "hasPower": true,
+  "consumesPower": false,
+  "outputsPower": true,
+  "powerProduction": 1.2,
+  "category": "power",
+  "requiraments": [
+    { "item": "titanium", "amount": 125},
+    { "item": "uranium", "amount": 12},
+    { "item": "lead", "amount": 362}
+  ]
+}

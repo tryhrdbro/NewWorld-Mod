@@ -19,9 +19,9 @@
           "pyratite": "standardIncendiary",
         },
       "requirements": [
-        { "item": "graphite", "amount": 500},
+        { "item": "graphite", "amount": 160},
         { "item": "copper", "amount": 350},
-        { "item": "titanium", "amount": 160}
+        { "item": "titanium", "amount": 80}
       ],
       "category": "turret",
       "research": "repeater"

@@ -6,6 +6,7 @@
 	"speed": 0.26,
   "drag": 0.4,
   "hitsize": 8,
+	"shots": 2,
   "mass": 5,
 	"rotateWeapon": true,
 	"flying": false,
@@ -15,7 +16,7 @@
 		"name": "spitter",
 		"width": 0,
 		"height": 1,
-    "reload": 28,
-		"bullet": "standardDense",
+    "reload": 18,
+		"bullet": "missileRevenant",
 	}
 }

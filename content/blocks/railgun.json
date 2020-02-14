@@ -67,11 +67,11 @@
       }
     },
       "requirements": [
-        { "item": "lead", "amount": 242 },
-        { "item": "copper", "amount": 420 },
+        { "item": "lead", "amount": 132 },
+        { "item": "copper", "amount": 240 },
         { "item": "titanium", "amount": 360 },
-        { "item": "void-shard", "amount": 100 },
-        { "item": "silicon", "amount": 100 }
+        { "item": "void-shard", "amount": 60 },
+        { "item": "silicon", "amount": 24 }
       ],
       "category": "turret",
       "research": "sword"

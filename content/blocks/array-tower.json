@@ -1,0 +1,13 @@
+{
+  "type": "PowerNode"
+  "health": 200,
+  "laserRange": 60,
+  "maxNodes": 3,
+  "hasPower": true,
+  "category": "power",
+  "requirements": [
+    { "item": "uranium", "amount": 10},
+    { "item": "titanium", "amount": 200},
+    { "item": "lead", "amount": 400}
+  ],
+}

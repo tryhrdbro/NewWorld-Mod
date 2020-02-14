@@ -1,0 +1,26 @@
+{
+  "name": "Walker Factory",
+  "type": "UnitFactory",
+  "unitType": "walker",
+  "produceTime": 3200,
+  "size": 2,
+  "maxSpawn": 3,
+  "consumes": {
+    "power": 2.5,
+    "items": {
+      "items": [
+        {"item": "silicon", "amount": 60},
+        {"item": "thorium", "amount": 20},
+        {"item": "uranium", "amount": 10}
+      ]
+    }
+  },
+  "category": "units",
+  "research": "phantom-factory",
+  "requirements": [
+    { "item": "uranium", "amount": 100 },
+    { "item": "thorium", "amount": 210 },
+    { "item": "silicon", "amount": 150 },
+    { "item": "titanium", "amount": 152 }
+  ]
+}

@@ -3,7 +3,7 @@
   "type": "Drill",
   "description": "A very strong drill. Needs liquid and power both!",
   "tier": 6,
-  "dillTime": 100,
+  "dillTime": 120,
   "drawRim": true,
   "size": 4,
   "hasPower": true,
@@ -19,9 +19,9 @@
 		}
   },
   "requirements": [
-		{ "item": "uranium", "amount": 2600 },
-		{ "item": "silicon", "amount": 1400 },
-		{ "item": "lead", "amount": 3208 }
+		{ "item": "uranium", "amount": 800 },
+		{ "item": "silicon", "amount": 680 },
+		{ "item": "lead", "amount": 1632 }
 	],
 
     "category": "production",

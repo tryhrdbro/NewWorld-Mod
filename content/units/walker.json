@@ -1,0 +1,24 @@
+{
+	"type": "groundUnit",
+	"name": "Walker",
+	"description": "A walking cannon.",
+  "maxVelocity": 1,
+	"speed": 0.16,
+  "drag": 0.4,
+  "hitsize": 9,
+  "mass": 3.8,
+	"flying": false,
+	"health": 640,
+	"range": 15,
+	"weapon": {
+		"name": "cannon",
+    "shootSound": "flame",
+    "width": 0,
+    "range": 30,
+		"shootSound": "shootBig",
+    "recoil": 1,
+    "alternate": true,
+    "reload": 32,
+		"bullet": "missileExplosive",
+	}
+}
