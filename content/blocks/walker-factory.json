@@ -18,9 +18,9 @@
   "category": "units",
   "research": "phantom-factory",
   "requirements": [
-    { "item": "uranium", "amount": 100 },
-    { "item": "thorium", "amount": 210 },
-    { "item": "silicon", "amount": 150 },
+    { "item": "uranium", "amount": 60 },
+    { "item": "thorium", "amount": 120 },
+    { "item": "silicon", "amount": 100 },
     { "item": "titanium", "amount": 152 }
   ]
 }
