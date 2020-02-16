@@ -5,7 +5,7 @@
   "health": 6200,
   "size": 2
   "requirements": [
-    { "item": "uranium", "amount": 360}
+    { "item": "uranium", "amount": 36}
   ],
   "category": "defense",
   "research": "uranium-wall-small"

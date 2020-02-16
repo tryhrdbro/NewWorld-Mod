@@ -2,6 +2,7 @@
   "type": "SolarGenerator",
   "health": 100,
   "hasPower": true,
+  "size": 3,
   "consumesPower": false,
   "outputsPower": true,
   "powerProduction": 1.2,

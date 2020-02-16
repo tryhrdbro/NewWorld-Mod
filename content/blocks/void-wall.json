@@ -5,7 +5,7 @@
     "health": 4200,
     "size": 1
     "requirements": [
-        { "item": "void-shard", "amount": 120}
+        { "item": "void-shard", "amount": 24}
     ],
     "category": "defense",
     "research": "uranium-wall-small"

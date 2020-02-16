@@ -3,8 +3,7 @@
   "type": "Drill",
   "description": "A very stroong drull",
   "tier": 4,
-
-  "dillTime": 500,
+  "dillTime": 10,
   "size": 2,
   "hasPower": true,
   "updateEffect": "pulverizeMedium",

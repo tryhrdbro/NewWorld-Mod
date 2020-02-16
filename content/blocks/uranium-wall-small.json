@@ -5,7 +5,7 @@
     "health": 2343,
     "size": 1
     "requirements": [
-        { "item": "uranium", "amount": 100}
+        { "item": "uranium", "amount": 12}
     ],
     "category": "defense",
     "research": "phase-wall"

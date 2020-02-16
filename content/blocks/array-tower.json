@@ -1,5 +1,7 @@
 {
   "type": "PowerNode"
+  "name": "Array Tower"
+  "description": "Its a tower that casts arrays to the next tower. Its has a longer range than the surge tower"
   "health": 200,
   "laserRange": 60,
   "maxNodes": 3,

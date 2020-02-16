@@ -1,0 +1,20 @@
+{
+  "type": "Battery",
+  "name": "Large Uranium Battery",
+  "description": "A big uranium batery that can store a alot of power!",
+  "size": 3,
+  "health": 456,
+  "emptyLightColor": "f8c266",
+  "fullLightColor": "fb9567",
+  "buildVisiblity": "shown",
+  "consumesPower": true,
+  "consumes": {
+    "powerBuffered": 50000,
+  },
+  "category": "turret",
+  "requiraments": [
+    { "item": "coppre", "amount": 250},
+    { "item": "uranium", "amount": 32},
+    { "item": "lead", "amount": 125}
+  ]
+}

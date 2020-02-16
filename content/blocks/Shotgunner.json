@@ -4,7 +4,7 @@
       "description": "Shoots bullets like crazy.",
       "health": 600,
       "size": 1,
-      "reload": 60,
+      "reload": 70,
       "width": 2,
       "shots": 20,
       "burstSpacing": 0,
@@ -19,7 +19,7 @@
           "pyratite": "standardIncendiary",
         },
       "requirements": [
-        { "item": "graphite", "amount": 160},
+        { "item": "graphite", "amount": 80},
         { "item": "copper", "amount": 350},
         { "item": "titanium", "amount": 80}
       ],
