@@ -12,5 +12,5 @@
     { "item": "titanium", "amount": 200},
     { "item": "lead", "amount": 400}
   ],
-  "research": "surgeTower",
+  "research": "surge-tower",
 }

@@ -17,5 +17,4 @@
     { "item": "uranium", "amount": 32},
     { "item": "lead", "amount": 125}
   ],
-  "research": "bigBattery",
 }
