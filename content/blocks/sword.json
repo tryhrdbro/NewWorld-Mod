@@ -17,7 +17,7 @@
       "titanium": {
         "speed": 6.0,
   			"drag": 0.01,
-  			"damage": 4,
+  			"damage": 40000,
   			"splashDamage": 4,
   			"splashDamageRadius": 24,
   			"bulletWidth": 5,
